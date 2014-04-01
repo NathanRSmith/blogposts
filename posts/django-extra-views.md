@@ -17,7 +17,7 @@ A basic form page in Django is easy to do:
 
 This may seem like a lot of steps, but forms handle much of the common form handling tasks that would be a waste of time to reimplement for every form page.  Once the developer gets used to this pattern and familiar with the [FormView](http://ccbv.co.uk/projects/Django/1.6/django.views.generic.edit/FormView/) class, basic form handling is a breeze.
 
-Eventually a client is gonna want to edit multiple things at once.  It is fairly straightforward to hack FormView to handle 2 or even 3 forms, and often this is desired when the forms are different.  But what if the client wants to be able to edit an arbitrary amount of items simultaneously?  Enter [django-extra-views](https://github.com/AndrewIngram/django-extra-views) and, specifically, FormSetView and ModelFormSetView.
+Eventually a client is going to want to edit multiple things at once.  It is fairly straightforward to hack FormView to handle 2 or even 3 forms, and often this is desired when the forms are different.  But what if the client wants to be able to edit an arbitrary amount of items simultaneously?  Enter [django-extra-views](https://github.com/AndrewIngram/django-extra-views) and, specifically, FormSetView and ModelFormSetView.
 
 The [django-extra-views](https://github.com/AndrewIngram/django-extra-views) package is installable via pip as a regular python package.  It has no dependencies and works for Django 1.3 or higher.  Inside of the package are a number of incredibly useful cbv's and mixins that probably should be included in the Django core.
 
@@ -82,7 +82,7 @@ Boom.  The inline formset is now handled.  Ok, so it probably will not be quite 
 
 It should be noted that the documentation for django-extra-views is, unfortunately, rather lacking and the best way to get familiar with these classes is to read the source and try them out.  If I ever get free time and the urge to contribute, this package is definitely on my list of candidates.
 
-To concluded, I highly recommend using this package if you ever need to handle formsets or their more complex siblings, inline formsets.  Yes, the documentation is not great, but the classes are fairly straightforward and make sense once you dive in.  I also hope that other useful views will be included in this package in the future to make it even more awesome.
+To conclude, I highly recommend using this package if you ever need to handle formsets or their more complex siblings, inline formsets.  Yes, the documentation is not great, but the classes are fairly straightforward and make sense once you dive in.  I also hope that other useful views will be included in this package in the future to make it even more awesome.
 
 
 
