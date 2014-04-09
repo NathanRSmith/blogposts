@@ -6,7 +6,7 @@ tags: [python, xcode, homebrew, clang, virtualenv]
 
 The other day I was working on my Mac and needed to install some Python packages.  Like any sane Python developer, I created a new virtualenv and attempted to install several packages.  Among these packages was [Fabric](http://www.fabfile.org/) which depends on [PyCrypto](https://www.dlitz.net/software/pycrypto/) which has compiled extensions.  The installation failed with a somewhat cryptic message:
 
-~~~~~~~~
+~~~~~~~~ {.bash}
 clang: error: unknown argument: '-mno-fused-madd' [-Wunused-command-line-argument-hard-error-in-future]
 
 clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
@@ -23,7 +23,7 @@ The latested clang update that came with Xcode 5.1 is causing some issues among 
 
 In the future this will not be an option, but it will work for now.
 
-~~~~~~~~
+~~~~~~~~ {.bash}
 env ARCHFLAGS="-Wno-error=unused-command-line-argument-hard-error-in-future" pip install fabric
 ~~~~~~~~
 
@@ -31,16 +31,16 @@ This downgrades the error into a warning for now.
 
 ### Solution 2 - Homebrew ###
 
-This second solution is prefferable to me as it will not suddenly stop working in the future.  Build and install a new version of Python via Homebrew.  Apparently the issue has been fixed in the Python source and just needs to be rebuilt.
+This second solution, which is prefferable to me as it will not suddenly stop working in the future, is to build and install a new version of Python via something like Homebrew.
 
-~~~~~~~~
+~~~~~~~~ {.bash}
 brew install python
 brew link --overwrite python
 ~~~~~~~~
 
-Assuming ``/usr/local/bin/`` comes before the default Python location, installing system level packages should work again.  To use the new Python with virtualenv simple use the ``-p`` option to specify the version of Python to use:
+Assuming ``/usr/local/bin/`` comes before the default Python location, installing system level packages should work again.  To use the new Python with virtualenv simply use the ``-p`` option to specify the version of Python to use:
 
-~~~~~~~~
+~~~~~~~~ {.bash}
 mkvirtualenv -p /usr/local/bin/python myenv
 ~~~~~~~~
 
