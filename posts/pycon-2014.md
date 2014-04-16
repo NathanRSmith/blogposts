@@ -4,11 +4,11 @@ author: Nathan Smith
 tags: [Python, PyCon, PyVideo, Montreal, conference, PSF]
 ---
 
-This past weekend (April 11-13, 2014) I had to priviledge of attending [PyCon](https://us.pycon.org/2014/) in Montreal, Canada.  I only attended the conference portion, but there was also tutorials the week before and sprints the week after.  I got there Thursday evening just in time to catch the end of the opening reception and start collection conference swag.
+This past weekend (April 11-13, 2014) I had the privilege of attending [PyCon](https://us.pycon.org/2014/) in Montreal, Canada.  I only attended the conference portion, but there were also tutorials the week before and sprints the week after.  I got there Thursday evening just in time to catch the end of the opening reception and start collecting conference swag.
 
-The conference took place at the Montreal Convention Center (Palais des congrès de Montréal).  This place was huge our 2500 attendees (as reported on Friday) hardly seemed to make a dent in it.  Activities spanned the multiple levels of gigantic rooms divided up for various purposes included keynotes, 5 talk tracks, lighning talks, breakfast, lunch, vendor booths, job fair, poster sessions, open rooms, charity auction, 5k fun run and a lot more.
+The conference took place at the Montreal Convention Center, which was huge and our 2500 attendees (as reported on Friday) hardly seemed to make a dent in it.  Activities spanned the multiple levels of gigantic rooms divided up for various purposes included keynotes, 5 talk tracks, lightning talks, breakfast, lunch, vendor booths, job fair, poster sessions, open rooms, charity auction, 5k fun run and a lot more.
 
-Most of the talks should be up on [PyVideo](http://www.pyvideo.org/category/50/pycon-us-2014) by now, so check them out if you're interested.
+Most of the talks are up on [PyVideo](http://www.pyvideo.org/category/50/pycon-us-2014) by now, so check them out if you're interested.
 
 I jumped around from track to track, but here is a list of the talks I attended:
 
@@ -27,9 +27,9 @@ I jumped around from track to track, but here is a list of the talks I attended:
 * [Fast Python, Slow Python](https://us.pycon.org/2014/schedule/presentation/197/) ([video](http://www.pyvideo.org/video/2627/fast-python-slow-python)) by Alex Gaynor
 * [Which messaging layer should you use if you want to build a loosely coupled distributed Python app?](https://us.pycon.org/2014/schedule/presentation/282/) ([video](http://www.pyvideo.org/video/2672/which-messaging-layer-should-you-use-if-you-want)) by Narahari Allamraju
 
-On the Sunday I unfortunately had to head to the airport before the talks started, so I couldn't catch any of them in person.  Looking over the list of talks I missed there are a lot of them I'll have to watch in the next few weeks.
+Unfortunately on Sunday I had to head to the airport before the talks started, so I couldn't catch any of them in person.  Looking over the list of talks I missed, there are a lot of them I'll have to watch in the next few weeks.
 
-I had a great time at PyCon and hope to be able to go again in the future.  [PyOhio](http://www.pyohio.org/) is coming up in a few months, so that will have to tide me over til next year.
+I had a great time at PyCon and hope to be able to go again in the future.  [PyOhio](http://www.pyohio.org/) is coming up in a few months, so that will have to tide me over till next year.
 
 
 
